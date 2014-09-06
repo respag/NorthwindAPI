@@ -14,8 +14,6 @@ namespace NorthwindAPI
         {
 
             config.EnableCors();
-          
-
             ODataConventionModelBuilder builder = new ODataConventionModelBuilder();
             builder.EntitySet<Category>("Categories");
             builder.EntitySet<Product>("Products");
